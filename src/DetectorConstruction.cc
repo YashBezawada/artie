@@ -70,15 +70,15 @@ DetectorConstruction::DetectorConstruction()
   
   // liquid argon container
   fLArcontainerLength = 150.*cm; 
-  fLArcontainerRadius = 5.*cm; 
+  fLArcontainerRadius = 50.*cm; 
   
   // gas insulator
   fGasinsulatorLength = 160.*cm; 
-  fGasinsulatorRadius = 10.*cm; 
+  fGasinsulatorRadius = 55.*cm; 
   
   // gas container
   fGascontainerLength = 160.*cm; 
-  fGascontainerRadius = 12.*cm; 
+  fGascontainerRadius = 57.*cm; 
   
   // kapton window to be defined
   

@@ -64,7 +64,9 @@ StackingAction::ClassifyNewTrack(const G4Track* aTrack)
   run->ParticleCount(name,energy);
 
   //kill all secondaries  
-  return fKill;
+  //return fKill;
+  //keep secondaries
+  return fWaiting;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
